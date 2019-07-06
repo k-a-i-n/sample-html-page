@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Samle html page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Hello, world!</h1>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1>Hello, world!</h1>
+      <div class="form">
+        <form autocomplete="off">
+          <div class="input">
+            <input type="text" name="search" />
+          </div>
+          <button><span>Search</span></button>
+        </form>
+        <p id="debug"></p>
+        <a href="#" class="logo" target="_blank">Sample HTML page logo</a>
+      </div>
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
